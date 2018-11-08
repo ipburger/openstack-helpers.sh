@@ -1,0 +1,2 @@
+set -x
+openstack image save --file "${2:-$1}" "$1"
